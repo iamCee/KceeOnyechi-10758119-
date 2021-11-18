@@ -3,13 +3,13 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'Ecommerce10758119' do
+target 'Ecommerce' do
   config = use_native_modules!
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'Ecommerce10758119Tests' do
+  target 'EcommerceTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -24,10 +24,10 @@ target 'Ecommerce10758119' do
   #end
 end
 
-target 'Ecommerce10758119-tvOS' do
-  # Pods for Ecommerce10758119-tvOS
+target 'Ecommerce-tvOS' do
+  # Pods for Ecommerce-tvOS
 
-  target 'Ecommerce10758119-tvOSTests' do
+  target 'Ecommerce-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

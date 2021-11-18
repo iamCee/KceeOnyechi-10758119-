@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface Ecommerce10758119Tests : XCTestCase
+@interface EcommerceTests : XCTestCase
 
 @end
 
-@implementation Ecommerce10758119Tests
+@implementation EcommerceTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {

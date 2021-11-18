@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "Ecommerce10758119";
+    return "Ecommerce";
   }
 }
